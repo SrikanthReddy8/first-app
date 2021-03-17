@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{font-size:15px;
+}
+.tree{
+margin:50px auto;
+width:50%;
+padding:10%;
+}
+.red{
+color:red;
+}
+.main{
+background-color:lightgrey;
+border:2px solid lightgrey;
+padding:25px;
+margin:50px auto;
+width:50%;
+}
+.sam{
+width:200px;
+}
+.john{
+background-color:green;
+color:white;
+border:2px solid green;
+border-radius:20px;
+float:right;
+padding:8px 20px;
+margin-top:-50px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="main">
+<form class="tree">
+<label for="Sname"> please input name </label><br><br>
+<input type="text" class="sam" id="sname" name="sname" value="Write name and surname">
+<strong class="red">        (compulsary)</strong><br><br>
+<label for="gender"> I am a </label><br><br>
+<select id="gender" class="sam" name="gender">
+<option value="gender">select gender</option>
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+</select>
+<strong class="red">(compulsary)</strong><br><br>
+
+<label for="email">Write email id</label><br><br>
+<input type="text" class="sam" id="email" name="email" >
+<strong class="red">(compulsary)</strong><br><br>
+
+<label for="pwd">My Password is </label><br><br>
+<input type="password" class="sam" id="pwd" name="pwd">
+<strong class="red">    (compulsary)</strong><br><br>
+
+<label for="date">Write your Date of birth</label><br><br>
+<input type="date" class="sam" id="date" name="date">
+<strong class="red">(compulsary)</strong><br><br>
+
+<label for="email">Email id again</label><br><br>
+<input type="email" class="sam" id="eamil" name="eamil" >
+<strong class="red">(compulsary)</strong><br><br>
+</form>
+<input type="button"  class="john" value="DO">
+</div>
+</body>
+</html> 
