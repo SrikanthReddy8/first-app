@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<style>
+#red 
+	{
+		float:none;
+		background:grey;
+	}
+#sad 
+	{	width:20px;
+		padding:60px;
+		margin:20px;
+		float:right;
+		border-left:2px solid black;
+	}
+#bad
+	{
+		margin:10px;
+		padding:20px;
+	}
+.sam
+	{
+		border-radius:3px;
+		color:blue;
+		font-family:Monospace;
+	}
+.jam 
+    { 	font-family:Monospace;
+		display:outline;
+	}
+
+@media screen and (min-width:460px)
+{
+	#red {
+		float:center;
+	}
+	#sad {
+		width:1000px;
+		padding;8opx;
+		margin:4opx;
+	}
+	#bad 
+	{
+		margin:20px;
+		padding:40px;
+	}
+}
+@media screen and (max-width:720px)
+{
+
+	#bad 
+		{ margin:auto;
+		padding:10px;
+		border-top:2px solid black;
+		}
+	#sad
+	{	width:auto;
+		float:none;
+		padding:10px;
+		margin:auto;
+		overflow:auto;
+		border-left:0px solid black;
+
+	}
+}
+</style>
+</head>
+<body style="background:lightgreen">
+<div class="jam">
+<div id="sad">
+<form>
+<h2>PAYMENT INFORMATION</h2>
+<label for="card">CREDIT CARD</label>
+<input type="radio" id="card" name="card"><br><br>
+<input type="text" id="card" name="card" placeholder="NAME ON CARD" ><br><br>
+<input type="text" id="card" name="card" placeholder="CARD NUMBER"><br><br>
+
+<input type="month" id="card" name="card" placeholder="MONTH"><BR><br>
+<input type="year" id="card" name="card" placeholder="year"><br><br>
+<input type="submit" class="sam" value="REVIEW ORDER">
+</form>
+</div>
+<div id="bad red">
+<form>
+<h2 class="sam">Payment method</h2>
+<input type="radio" id="pay" name="pay">
+<label for="pay">BobPay</label><br><br>
+<input type="radio" id="card" name="card">
+<label for="card">visa .... 4242 Jane Doe</label><br><br>
+<input type="radio" id="visa" name="visa">
+<label for="visa">Visa ... 5338Gini Silvia </label><br><br>
+
+<a href=//https:www.upstoxpro.com>+ ADD CARD
+</form>
+</div>
+</div>
+
+</body>
+</html>
