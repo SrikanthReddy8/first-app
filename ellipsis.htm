@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div.test
+	{
+		white-space:nowrap;
+		width:200px;
+		overflow: hidden;
+		border: 3px solid #000000;
+	}
+	div.test:hover
+	{
+		overflow:visible;
+	}
+</style>
+</head>
+<body>
+<p>Hover over the two divs below, to see the entire text.</p>
+
+<div class="test" style="text-overflow:ellipsis;">This is some long text that will not fit in the 
+<span class="test"> this is good</span>
+</div>
+<br>
+<div class="test" style="text-overflow:clip;">This is some long text that will not fit in the box</div>
+
+</body>
+</html>
+</html>
